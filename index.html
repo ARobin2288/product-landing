@@ -37,7 +37,17 @@
     <div id="product-info">
         <div class="row">
             <div class="col-8">
-                <p class="description">Have you ever wished you could share a cold one with your favorite pal? Now you can! Add your most beloved furry friend's face to a 16. oz mug and cheers to them everytime. A unique and personal gift for anyone on any occassion, Birthday's, Holiday's, Wedding's and more!</p>
+                <div class="description"></div>
+                <p>Have you ever wished you could share a cold one with your favorite pal? Now you can! Add your most beloved furry friend's face to a 16. oz mug and cheers to them everytime. A unique and personal gift for anyone on any occassion, Birthday's, Holiday's, Wedding's and more!</p>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <label id="email-label" for="email">Email:</label>
+                    <input id="email" type="email" name="email" placeholder="Email" required>
+                    <input id="submit" type="submit" value="Submit">
+                    <div class="mb-3">
+                        <label for="formFileSm" class="form-label">Attach Animal Photo:</label>
+                        <input class="form-control form-control-sm" id="formFileSm" type="file">
+                      </div>
+                </form>
             </div>
             <div class="col-4">
                 <ul class="materials"><i class="fas fa-cut"></i> Materials:
@@ -57,12 +67,7 @@
         </div>   
     </div>
         <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 48px; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">  <iframe id="video" loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAE1E5-d5DU&#x2F;watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">  </iframe></div>
-            <!-- set to send to free code camp -->
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
-            <label id="email-label" for="email">Email:</label>
-            <input id="email" type="email" name="email" placeholder="Email" required>
-            <input id="submit" type="submit" value="Submit">
-        </form>
+         
     </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>

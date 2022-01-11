@@ -141,11 +141,20 @@ img {
     margin: 0 auto;
 }
 
+#product-info form {
+    padding-top: 38px;
+}
+
 #product-info .col-4 ul {
+    margin: 0 auto;
     text-align: left;
     list-style: none;
     font-size: 18px;
     font-weight: 600;
+}
+
+#product-info .materials, .care {
+    padding-bottom: 22px;
 }
 
 #product-info .col-4 li {

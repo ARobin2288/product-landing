@@ -6,24 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/ea6c14e433.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header id="header">
-        <img id="header-img" src="images/BWLT.png" alt="grey circle with an outlined Bird wearing superhero mask, with the words Bird Wonder Designs By Robin are below." width="150px">
+        <div class="logo-img">
+            <img id="header-img" src="images/BWLT.png" alt="grey circle with an outlined Bird wearing superhero mask, with the words Bird Wonder Designs By Robin are below." width="150px">
+        </div>
         <nav id="nav-bar">
-            <a class="nav-link" href="#product-intro">Pictures</a>
-            <a class="nav-link" href="#product-info">Info</a>
-            <a class="nav-link" href="#video">Video</a>
+            <span><a class="nav-link" href="#product-intro">Pictures</a></span>
+            <span><a class="nav-link" href="#product-info">Info</a></span>
+            <span><a class="nav-link" href="#video">Video</a></span>
         </nav>
     </header>
+    <div class="container">
     <div id="product-intro">
-        <span class="product-pictures">
-            <img src="images/IMG_1024.JPG" alt="" width="200px">
-            <img src="images/IMG_1019.JPG" alt="" width="200px">
-            <img src="images/IMG_1022.JPG" alt="" width="200px">
-        </span>
         <h1>Pet Mug Beer Stein</h1>
-        <h4>Cheers to your best furry friend!</h4>
+        <h4>Cheers to your best furry friend <i class="fas fa-paw"></i></h4>
+        <span class="product-pictures">
+            <img src="images/IMG_1024.JPG" alt="" width="300px">
+            <img src="images/IMG_1019.JPG" alt="" width="300px">
+            <img src="images/IMG_1022.JPG" alt="" width="300px">
+        </span>
     </div>
     <div id="product-info">
         <p>Custom Pet beer mugs. general info</p>
@@ -38,6 +42,7 @@
         <input id="email" type="email" name="email" placeholder="Email" required>
         <input id="submit" type="submit" value="Submit">
     </form>
+</div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>

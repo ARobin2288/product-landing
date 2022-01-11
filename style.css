@@ -15,7 +15,7 @@ header {
     left: 0px;
     width: 100%;
     height: 68px;
-    background-color: rgba(118, 199, 153, 0.808);
+    background-color: #90aacbee;
     align-items: center;
     box-shadow: 2px 2px 22px;
 }
@@ -48,32 +48,27 @@ img {
     text-decoration: none;
     font-weight: 400;
     letter-spacing: .9px;
-    background-color: rgba(118, 199, 153, 0.932);
+    background-color: #90aacb;
     border-radius: 8px;
     width: min-content;
 }
 
 #nav-bar a:hover{
-    transition: all 0.3s ease-in-out;
-    transform: scale(1.09);
+    transition: all 0.1s ease-in-out;
+    transform: scale(1.02);
     background-color: rgb(108, 184, 141);
 }
 
 .container {
     margin: 0 auto;
-    margin-top: 162px;
-    
 }
 
 #product-intro {
-    padding-top: 8px;
-}
-
-.intro {
     margin: 0 auto;
     background-color: rgba(105, 105, 105, 0.849);
     color: rgb(235, 227, 215);
-    margin-bottom: 102px;
+    margin-top: 128px;
+    margin-bottom: 88px;
 }
 
 #product-intro h1 {
@@ -119,34 +114,56 @@ img {
 
 #product-info {
     margin: 0 auto;
-    background-color: rgba(47, 79, 79, 0.904);
-    color: rgba(255, 255, 255, 0.966);
+    background-color: #fef1e6fa;
+    color: black;
     
 }
 
 #product-info .row {
     margin: 0 auto;
-    padding: 38px 40px;
-    
 }
 
 #product-info .col-8 {
+    padding: 38px 28px;
     font-size: 18px;
     text-align: left;
     line-height: 30px;
     letter-spacing: .8px;
 }
 
-#product-info .description {
-    margin: 0 auto;
+#product-info form .form-section {
+    padding-top: 18px;
+    min-width: fit-content;
 }
 
-#product-info form {
-    padding-top: 38px;
+#product-info .form-section label {
+    font-size: 17px;
+    font-weight: 300;
+    padding-bottom: 4px;
+}
+
+#product-info .form-section input {
+    width: 66%;
+    height: 32px;
+    padding-left: 8px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+}
+
+#product-info .submit {
+    margin-top: 22px;
+    width: 25%;
+}
+
+#product-info .col-4 {
+    padding: 38px  28px;
+    max-width: 400px;
 }
 
 #product-info .col-4 ul {
     margin: 0 auto;
+    
     text-align: left;
     list-style: none;
     font-size: 18px;
@@ -163,4 +180,19 @@ img {
     list-style: none;
     font-weight: 300; 
     padding-left: 22px;
+}
+
+.video {
+    margin: 0 auto;
+    width: 600px;
+    margin-top: 102px;
+}
+
+footer {
+    font-size: 13px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 48px 0 12px 18px;
+    color: darkred;
+    font-weight: bold;
 }

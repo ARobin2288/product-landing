@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/ea6c14e433.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -20,29 +21,33 @@
         </nav>
     </header>
     <div class="container">
-    <div id="product-intro">
-        <h1>Pet Mug Beer Stein</h1>
-        <h4>Cheers to your best furry friend <i class="fas fa-paw"></i></h4>
-        <span class="product-pictures">
-            <img src="images/IMG_1024.JPG" alt="" width="300px">
-            <img src="images/IMG_1019.JPG" alt="" width="300px">
-            <img src="images/IMG_1022.JPG" alt="" width="300px">
-        </span>
+        <div id="product-intro">
+            <div class="intro">
+                <h1>Pet Mug Beer Stein</h1>
+                <h4>Cheers to your best furry friend <i class="fas fa-paw"></i></h4>
+            </div>
+            <div class="product-pictures">
+                <div class="row">
+                    <div class="col-4"><img src="images/IMG_1024.JPG" alt="" width="100%"></div>
+                    <div class="col-4"><img src="images/IMG_1019.JPG" alt="" width="100%"></div>
+                    <div class="col-4"><img src="images/IMG_1022.JPG" alt="" width="100%"></div>
+                </div>  
+            </div>
+        </div>
+        <div id="product-info">
+            <p>Custom Pet beer mugs. general info</p>
+            <p>List of materials</p>
+            <p>warnings and issues</p>
+            <p>Shipping fees</p>
+        </div>
+        <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 48px; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">  <iframe id="video" loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAE1E5-d5DU&#x2F;watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">  </iframe></div>
+            <!-- set to send to free code camp -->
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <label id="email-label" for="email">Email:</label>
+            <input id="email" type="email" name="email" placeholder="Email" required>
+            <input id="submit" type="submit" value="Submit">
+        </form>
     </div>
-    <div id="product-info">
-        <p>Custom Pet beer mugs. general info</p>
-        <p>List of materials</p>
-        <p>warnings and issues</p>
-        <p>Shipping fees</p>
-    </div>
-    <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 48px; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">  <iframe id="video" loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAE1E5-d5DU&#x2F;watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">  </iframe></div>
-    <!-- set to send to free code camp -->
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <label id="email-label" for="email">Email:</label>
-        <input id="email" type="email" name="email" placeholder="Email" required>
-        <input id="submit" type="submit" value="Submit">
-    </form>
-</div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
